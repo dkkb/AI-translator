@@ -31,6 +31,9 @@ const Popup = () => {
       }
     });
   };
+  const startTranslate = () => {
+
+  }
 
   return (
     <>
@@ -44,7 +47,7 @@ const Popup = () => {
       >
         count up
       </button>
-      <button onClick={changeBackground}>change background</button>
+      <button onClick={startTranslate}>change background</button>
     </>
   );
 };
