@@ -1,4 +1,5 @@
-import { sum } from '../sum'
+import {sum} from '../sum'
+import {expect, test} from 'vitest'
 
 test('1 + 1 = 2', () => {
     expect(sum(1, 1)).toBe(2)
